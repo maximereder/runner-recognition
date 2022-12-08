@@ -17,7 +17,7 @@ This project aims to develop a system for recognizing runners in photos. It uses
 
 ## Finding Persons on images
 
-```
+```py
 The code iterates over the images in the "images" directory in the workspace. 
 For each image : 
   Check if the image file name is already present in the "person" directory
@@ -30,7 +30,7 @@ For each image :
 
 ## OCR on bibs images
 
-```
+```py
 The code iterates over the images in the "person" directory.
 
 For each image : 
@@ -46,7 +46,7 @@ For each image :
 
 ## Finding Faces on pivot images
 
-```
+```py
 The code iterates over the images in the "pivot" directory.
 
 For each image : 
@@ -62,7 +62,7 @@ For each image :
 
 ## Finding Faces on unknown images
 
-```
+```py
 The code iterates over the images in the "unknown" directory.
 
 For each image : 
@@ -78,7 +78,7 @@ For each image :
 
 ## Matching pivot and unknown images
 
-```
+```py
 The code iterates over the images in the "pivot" directory.
 
 For each face : 
@@ -92,7 +92,7 @@ For each face :
 
 ## Exporting data
 
-```
+```py
 {
     "121": [
         "test_script/images/1#12-1-1032462109.jpg"
