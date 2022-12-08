@@ -3,7 +3,7 @@
 This project aims to recognize **runners** in competitions. My goal is to recognize runner with image processing.
 Following this analysis, we import data in DB.
 
-<img src="Report/all.webp" width="25%" height="25%">
+![all](Report/all.webp)
 
 Runners wants to find there photos after competition. According to the bib number, we can find the runner. Photographers takes photos of runner but sometimes bib cannot been recognized due to shadows or bad light. So we use face recognition to recognize `unknown` runners.
 
@@ -57,7 +57,7 @@ For each image :
   If faces are detected: 
     Crop the image to include only the face and saves the cropped image in the "face_pivot" directory. 
 ```
-<img src="Report/bib-face.webp" width="25%" height="25%">
+![bib-face](Report/bib-face.webp)
 
 ## Finding faces on unknown images
 
@@ -73,7 +73,8 @@ For each image :
     Crop the image to include only the face and saves the cropped image in the "face_unknown" directory. 
 ```
 
-<img src="Report/face.webp" width="25%" height="25%">
+![face](Report/face.webp)
+
 
 ## Matching pivot and unknown images
 
