@@ -15,7 +15,7 @@ This project aims to develop a system for recognizing runners in photos. It uses
 
 - We imports several packages, including `numpy`, `keras_ocr`, and `torch`, which are used for **image processing**, OCR, and **machine learning**, respectively.
 
-## Finding Persons on images
+## Finding persons on images
 
 ```py
 The code iterates over the images in the "images" directory in the workspace. 
