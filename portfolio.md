@@ -60,7 +60,7 @@ For each image :
 
 ![original](Report/bib-face.webp)
 
-## Finding Faces on unknown images
+## Finding faces on unknown images
 
 ```py
 The code iterates over the images in the "unknown" directory.
